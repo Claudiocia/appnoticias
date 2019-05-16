@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sinapse.unebnoticias"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <permission
+        android:name="com.sinapse.unebnoticias.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.sinapse.unebnoticias.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:authorities="com.sinapse.unebnoticias.provider.SearchableProvider"
+            android:name="com.sinapse.unebnoticias.provider.SearchableProvider" />
+
+        <activity
+            android:name=".SplashInicial"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sinapse.unebnoticias.SplashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sinapse.unebnoticias.ListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sinapse.unebnoticias.DetailActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.PortalActivity"
+            android:label="@string/portal"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.LinhadirActivity"
+            android:label="@string/linhadir"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.SplashWebtv"
+            android:label="@string/webtv"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.WebtvListActivity"
+            android:label="@string/webtv"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.AgendaActivity"
+            android:label="@string/agenda"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.WebtvActivity"
+            android:label="@string/webtv" />
+        <activity
+            android:name="com.sinapse.unebnoticias.MapasActivity"
+            android:label="@string/mapas" />
+        <activity
+            android:name="com.sinapse.unebnoticias.GcmCloudActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sinapse.unebnoticias.CadastrarUser"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sinapse.unebnoticias.image.ZoomInZoomOut"
+            android:label="@string/app_name" />
+        <activity
+            android:windowSoftInputMode="adjustPan|adjustNothing"
+            android:name="com.sinapse.unebnoticias.TelefoneActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:windowSoftInputMode="adjustPan|adjustNothing"
+            android:name="com.sinapse.unebnoticias.CursosActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sinapse.unebnoticias.EventosActivity"
+            android:label="@string/eventos"/>
+        <activity
+            android:name="com.sinapse.unebnoticias.PremiosActivity"
+            android:label="@string/premios" />
+        <activity
+            android:name="com.sinapse.unebnoticias.ResultActivity"
+            android:label="@string/telunid" />
+        <activity
+            android:name="com.sinapse.unebnoticias.ResultCursoActivity"
+            android:label="@string/telunid" />
+        <activity
+            android:name="com.sinapse.unebnoticias.TelListActivity"
+            android:label="@string/telunico" />
+        <activity
+            android:name="com.sinapse.unebnoticias.SobreActivity"
+            android:label="@string/sobre" />
+        <activity
+            android:name="com.sinapse.unebnoticias.SobreAppActivity"
+            android:label="@string/sobre" />
+
+        <receiver android:name="com.sinapse.unebnoticias.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.sinapse.unebnoticias"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.sinapse.unebnoticias.GcmIntentService">
+        </service>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/form_contato"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="*Nome"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:textSize="17dp"
+            android:id="@+id/edt_nome"
+            android:textColor="@color/black"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textSize="17dp"
+            android:hint="*email"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:layout_margin="3dp"
+            android:id="@+id/edt_email" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_msg"
+            android:hint="*mensagem"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:maxLength="350"
+            android:layout_margin="5dp"
+            android:layout_weight="0.57"
+            android:singleLine="false"
+            android:gravity="top"
+            android:textColor="@color/black"
+            android:inputType="textMultiLine|textLongMessage" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/btn_enviar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:onClick="enviarDados"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="#ccc"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/curso_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/title"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/dept_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/curso_nome"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/title"
+            android:textSize="14sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/campus_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dept_nome"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/title"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/nat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campus_nome"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/title"
+            android:textSize="14sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/polo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/nat"
+            android:padding="1dp"
+            android:text="@string/date"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TelefoneActivity">
+    <item
+        android:id="@+id/action_searchable_activity"
+        android:orderInCategory="100"
+        android:icon="@drawable/busca"
+        android:title="@string/action_searchable_activity"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/sobre"
+        android:title="@string/sobre"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/app_sobre"
+        android:icon="@drawable/config"
+        android:orderInCategory="100"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/fechar"
+        android:title="@string/close"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

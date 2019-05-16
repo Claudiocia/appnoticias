@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_listView"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary" >
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tb_listView"
+        android:layout_above="@+id/inc_tb_botton">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto_sobre"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="A UNIVERSIDADE"
+                android:textStyle="bold"/>
+
+            <com.bluejamesbond.text.DocumentView
+                xmlns:ext="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto_sobre1"
+                android:layout_below="@+id/texto_sobre"
+                ext:documentView_insetPaddingLeft="15dp"
+                ext:documentView_insetPaddingRight="15dp"
+                ext:documentView_insetPaddingTop="10dp"
+                ext:documentView_text="@string/texto_sobre1"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@color/colorPrimaryDark"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSize="16sp"
+                ext:documentView_textStyle="bold" />
+            <com.bluejamesbond.text.DocumentView
+                xmlns:ext="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto_sobre1a"
+                android:layout_below="@+id/texto_sobre1"
+                ext:documentView_insetPaddingLeft="15dp"
+                ext:documentView_insetPaddingRight="15dp"
+                ext:documentView_insetPaddingTop="10dp"
+                ext:documentView_text="@string/texto_sobre2"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@color/colorPrimaryDark"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSize="16sp"
+                ext:documentView_textStyle="bold" />
+            <com.bluejamesbond.text.DocumentView
+                xmlns:ext="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto_sobre1b"
+                android:layout_below="@+id/texto_sobre1a"
+                ext:documentView_insetPaddingLeft="15dp"
+                ext:documentView_insetPaddingRight="15dp"
+                ext:documentView_insetPaddingTop="10dp"
+                ext:documentView_text="@string/texto_sobre3"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@color/colorPrimaryDark"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSize="16sp"
+                ext:documentView_textStyle="bold" />
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto_sobre8"
+                android:gravity="center"
+                android:layout_below="@+id/texto_sobre1b"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/cargo_reitor"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto_sobre9"
+                android:layout_below="@+id/texto_sobre8"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/tit_reitor"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/marca_sobre"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/marca_uneb_h"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/texto_sobre9"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/inc_tb_botton"
+        layout="@layout/toolbar_botton"/>
+
+</RelativeLayout>

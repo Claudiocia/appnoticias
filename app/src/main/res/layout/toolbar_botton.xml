@@ -1,0 +1,75 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tb_botton"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="80dp"
+    android:background="@color/colorPrimary1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/noticias"
+            android:id="@+id/ic_noticia"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="6dp"
+            android:orderInCategory="100"
+            android:title="@string/app_name"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/ic_linhadir"
+            android:src="@drawable/linhadir"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="6dp"
+            android:orderInCategory="100"
+            android:title="@string/linhadir" />
+
+        <ImageView
+            android:id="@+id/ic_webtv"
+            android:src="@drawable/webtv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="6dp"
+            android:title="@string/webtv" />
+
+        <ImageView
+            android:id="@+id/ic_portal"
+            android:src="@drawable/portal"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="6dp"
+            android:title="@string/portal" />
+
+        <ImageView
+            android:id="@+id/ic_mapas"
+            android:src="@drawable/mapas"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="6dp"
+            android:title="@string/mapas" />
+
+        <ImageView
+            android:id="@+id/ic_agenda"
+            android:src="@drawable/agenda"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:title="@string/agenda" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>
+

@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    useLibrary  'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.sinapse.unebnoticias"
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 3
+        versionName "3.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors{
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation project(':jsoup-1.8.2')
+    implementation project(':volley')
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0-beta01'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
+    implementation 'androidx.cardview:cardview:1.0.0-beta01'
+    implementation 'com.google.android.material:material:1.0.0-beta01'
+    implementation "com.google.android.gms:play-services-gcm:10.2.1"
+    implementation 'com.github.bluejamesbond:textjustify-android:2.1.1'
+}

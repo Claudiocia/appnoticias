@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CadastrarUser">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_listView"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_below="@+id/tb_listView"
+        android:id="@+id/ll_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal">
+
+        <include
+            android:id="@+id/formulario"
+            layout="@layout/form_caduser" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

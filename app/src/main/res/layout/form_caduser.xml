@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/form_caduser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edt_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:ems="10"
+            android:hint="*nome"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:ems="10"
+            android:hint="*email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edt_mat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:ems="10"
+            android:hint="matricula se tiver"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edt_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:ems="10"
+            android:hint="*CELULAR com dd(xx ?xxxxxxxx)"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_enviar"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="#ccc"
+                android:onClick="salvarDados"
+                android:text="Cadastrar"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn_enviar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/marca_uneb_h" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

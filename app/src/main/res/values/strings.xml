@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Uneb - Notícias</string>
+
+    <string name="mapas">Uneb - Mapa de Ações</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="config">Configurações</string>
+    <string name="app_sobre">Sobre o App</string>
+    <string name="loading">Carregando. Favor aguardar...</string>
+    <string name="title">Aqui vai o Título</string>
+    <string name="date">Aqui vai a data</string>
+    <string name="desc">Description goes here!</string>
+    <string name="webtv">Uneb - WebTv </string>
+    <string name="portal">Uneb - Portal Web</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="sobre">Sobre a Uneb</string>
+    <string name="agenda">Uneb - Agenda</string>
+    <string name="premios">Agenda - Prêmios e Editais</string>
+    <string name="eventos">Agenda - Eventos</string>
+    <string name="linhadir">Uneb - Linha Direta</string>
+    <string name="cursos">Cursos de Graduação</string>
+    <string name="subtitulo">Página em construção!</string>
+    <string name="close">Fechar</string>
+    <string name="buscar">Buscar</string>
+    <string name="caduser">Registrar Usuário</string>
+    <string name="telunid">Lista Telefônica da UNEB</string>
+    <string name="telunico">Detalhes da seleção</string>
+    <string name="action_searchable_activity">Buscar telefone</string>
+    <string name="search_hint">Buscar telefone</string>
+    <string name="action_delete">Deletar histórico</string>
+
+    <string name="texto_sobre1">Fundada em 1983, a UNEB tem como missão a produção, difusão, socialização e aplicação do conhecimento nas diversas áreas do saber.
+        A UNEB está presente em 19 territórios de identidade da Bahia, possuindo 24 campi: um na Capital e os demais distribuídos em 23 importantes municípios baianos. Sua estrutura multicampi contribui para a interiorização e a democratização do ensino superior, elevando-a a condição de agente fomentador do desenvolvimento regional.
+</string>
+    <string name="texto_sobre2">
+        Atualmente, a Universidade oferece mais de 150 opções de cursos nas modalidades presencial e de educação a distância (EaD), nos níveis de graduação e pós-graduação. Além disso, adota um conjunto de políticas de inclusão e desenvolve programas e ações extensionistas que beneficiam muitos cidadãos, a maioria pertencente a segmentos social e economicamente desfavorecidos e excluídos.
+</string>
+    <string name="texto_sobre3">
+        Com o apoio da comunidade acadêmica, a UNEB realiza seu compromisso de aliar a excelência acadêmica à sua missão social, contribuindo para o desenvolvimento socioeducacional e econômico da Bahia.
+</string>
+
+    <string name="texto_sobre_app">Este aplicativo foi desenvolvido com o objetivo de facilitar o acesso de estudantes, técnicos, professores e a comunidade em geral às informações disponibilizadas através dos canais oficiais da Universidade. Com este aplicativo notícias, vídeos, listas de telefone e um canal exclusivo de comunicação com os setores da gestão universitária, ficam mais acessivel à todos.
+</string>
+    <string name="fim_app">Bom proveito!</string>
+
+    <string name="cargo_gov">GOVERNADOR</string>
+    <string name="tit_gov">Rui Costa</string>
+    <string name="cargo_vicegov">VICE-GOVERNADOR</string>
+    <string name="tit_vicegov">João Leão</string>
+    <string name="cargo_reitor">REITOR</string>
+    <string name="tit_reitor">José Bites de Carvalho</string>
+    <string name="cargo_vicereitor">VICE-REITORA</string>
+    <string name="tit_vicereitor">Carla Liane Nascimento dos Santos</string>
+    <string name="cargo_gab">CHEFE DE GABINETE</string>
+    <string name="tit_gab">Maria Aparecida Porto Silva</string>
+    <string name="cargo_jur">PROCURADORIA JURÍDICA – PROJUR</string>
+    <string name="tit_jur">Rosilene Evangelista da Apresentação</string>
+    <string name="cargo_grad">PRÓ-REITORIA DE ENSINO DE GRADUAÇÃO – PROGRAD</string>
+    <string name="tit_grad">Kathia Marise Borges Sales</string>
+    <string name="cargo_ppg">PRÓ-REITORIA DE PESQUISA E ENSINO DE PÓS-GRADUAÇÃO – PPG</string>
+    <string name="tit_ppg">Atson Carlos de Souza Fernandes</string>
+    <string name="cargo_ext">PRÓ-REITORIA DE EXTENSÃO – PROEX</string>
+    <string name="tit_ext">Maria Celeste Souza de Castro</string>
+    <string name="cargo_estu">PRÓ-REITORIA DE ASSISTÊNCIA ESTUDANTIL – PRAES</string>
+    <string name="tit_estu">Ubiratan Azevedo de Menezes</string>
+    <string name="cargo_afir">PRÓ-REITORIA DE AÇÕES AFIRMATIVAS – PROAF</string>
+    <string name="tit_afir">Marluce de Lima Macedo</string>
+    <string name="cargo_ead">UNIDADE ACADÊMICA DE EDUCAÇÃO A DISTÂNCIA – UNEAD</string>
+    <string name="tit_ead">Jader Cristiano Magalhães de Albuquerque</string>
+    <string name="cargo_plan">PRÓ-REITORIA DE PLANEJAMENTO – PROPLAN</string>
+    <string name="tit_plan">Marta Rosa Farias de Almeida Miranda</string>
+    <string name="cargo_adm">PRÓ-REITORIA DE ADMINISTRAÇÃO – PROAD</string>
+    <string name="tit_adm">Luzinete Gama</string>
+    <string name="cargo_pess">PRÓ-REITORIA DE GESTÃO E DESENVOLVIMENTO DE PESSOAS – PGDP</string>
+    <string name="tit_pess">Marcelo Duarte Dantas de Ávila</string>
+    <string name="cargo_infra">PRÓ-REITORIA DE INFRAESTRUTURA – PROINFRA</string>
+    <string name="tit_infra">Marcelo Guimarães Varela</string>
+    <string name="cargo_aval">SECRETARIA ESPECIAL DE AVALIAÇÃO INSTITUCIONAL – SEAVI</string>
+    <string name="tit_aval">Ivan Luiz Novaes</string>
+    <string name="cargo_rela">SECRETARIA ESPECIAL DE RELAÇÕES INTERNACIONAIS – SERINT</string>
+    <string name="tit_rela">Jardelina Bispo do Nascimento</string>
+    <string name="cargo_artic">SECRETARIA ESPECIAL DE ARTICULAÇÃO INTERINSTITUCIONAL – SEAI</string>
+    <string name="tit_artic">Wilson Roberto de Mattos</string>
+    <string name="cargo_selc">SECRETARIA ESPECIAL DE LICITAÇÕES, CONTRATOS E CONVÊNIOS – SELCC</string>
+    <string name="tit_selc">Lidia Boaventura</string>
+    <string name="cargo_cont">SECRETARIA ESPECIAL DE CONTABILIDADE E FINANÇAS – SECONF</string>
+    <string name="tit_cont">Márcio Santos Sampaio</string>
+    <string name="cargo_udo">UNIDADE DE DESENVOLVIMENTO ORGANIZACIONAL – UDO</string>
+    <string name="tit_udo">Benjamin Ramos Filho</string>
+    <string name="cargo_ass">ASSESSORIAS ESPECIAIS</string>
+    <string name="tit_ass1">Antonio José Batista de Azevedo</string>
+    <string name="tit_ass2">Jairo Luiz de Oliveira Sá</string>
+    <string name="tit_ass3">Marcius de Almeida Gomes</string>
+    <string name="tit_ass4">Gildeci de Oliveira Leite</string>
+    <string name="tit_ass5">Dayse Lago de Miranda</string>
+    <string name="tit_ass6">Cláudia Silva de Santana</string>
+    <string name="cargo_cult">ASSESSORIA ESPECIAL DE CULTURA E ARTES</string>
+    <string name="tit_cult">Isa Maria Faria Trigo</string>
+    <string name="cargo_com">ASSESSORIA DE COMUNICAÇÃO - ASCOM</string>
+    <string name="tit_com">Tiago Santos Sampaio</string>
+    <string name="cargo_edito">EDITORA UNEB – EDUNEB</string>
+    <string name="tit_edito">Sandra Regina Soares</string>
+    <string name="cargo_semo">SERVIÇO MÉDICO ODONTOLÓGICO E SOCIAL – SMOS</string>
+    <string name="tit_semo">Isnaia Junquilho Freire Calazans Souza</string>
+    <string name="cargo_bibli">SISTEMA DE BIBLIOTECAS – SISB</string>
+    <string name="tit_bibli">Consuelo Silva Falcão</string>
+    <string name="cargo_ouv">OUVIDORIA</string>
+    <string name="tit_ouvi">Neirivan das Virgens</string>
+    <string name="cargo_sec">SECRETÁRIO DE EDUCAÇÃO</string>
+    <string name="tit_sec">Osvaldo Barreto</string>
+
+</resources>

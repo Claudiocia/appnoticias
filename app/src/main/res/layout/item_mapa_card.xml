@@ -1,0 +1,48 @@
+<androidx.appcompat.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    app:cardBackgroundColor="#aed9f4"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="false"
+    app:cardPreventCornerOverlap="false"
+    app:cardMaxElevation="3dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_mapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@null" />
+
+        <TextView
+            android:id="@+id/tv_titMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_mapa"
+            android:paddingLeft="16dp"
+            android:paddingTop="24dp"
+            android:textColor="@color/colorPrimarytext"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_descrMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_titMapa"
+            android:paddingBottom="24dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</androidx.appcompat.widget.CardView>
