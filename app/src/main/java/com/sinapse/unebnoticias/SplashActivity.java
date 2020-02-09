@@ -26,7 +26,7 @@ import java.io.ObjectOutputStream;
 public class SplashActivity extends AppCompatActivity {
 
 
-    String RSSFEEDURL = "http://www.smartenem.com.br/noticias/index";
+    String RSSFEEDURL = "http://www.al.ba.gov.br/midia-center";
     RSSFeed feed;
     String fileName;
 

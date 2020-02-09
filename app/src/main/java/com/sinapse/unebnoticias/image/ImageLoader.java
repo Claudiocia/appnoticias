@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.sinapse.unebnoticias.R;
@@ -53,6 +54,7 @@ public class ImageLoader {
 
     public void DisplayImage(String url, ImageView imageView){
         imageViews.put(imageView, url);
+        Log.d("claudio3", "a url no ImageLoader é: " + url);
         Bitmap bitmap = memoryCache.get(url);
         if(bitmap != null)
             imageView.setImageBitmap(bitmap);

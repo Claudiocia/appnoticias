@@ -95,7 +95,7 @@ public class CadastrarUser extends AppCompatActivity {
             }
         });
 
-        url = "http://www.smartenem.com.br/server/servercad.php";
+        url = "https://www.smartenem.com.br/server/server.php";
         //pega hora
         JTF_hora = (new SimpleDateFormat("HH:mm:ss").format(new Date(System.currentTimeMillis())));
         //pega data

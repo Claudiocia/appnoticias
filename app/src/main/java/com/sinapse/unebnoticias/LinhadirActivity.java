@@ -108,7 +108,7 @@ public class LinhadirActivity extends AppCompatActivity implements Transaction {
         });
 
 
-        url = "http://www.informa.uneb.br/server/server.php";
+        url = "http://www.smartenem.com.br/server/server.php";
 
         //pega hora
         JTF_hora = (new SimpleDateFormat("HH:mm:ss").format(new Date(System.currentTimeMillis())));

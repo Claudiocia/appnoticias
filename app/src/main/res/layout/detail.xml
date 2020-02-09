@@ -31,12 +31,12 @@
         android:paddingRight="2dp"
         android:paddingTop="2dp">
 
-        <androidx.core.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layerType="hardware" >
-        </androidx.core.view.ViewPager>
+        </androidx.viewpager.widget.ViewPager>
 
     </RelativeLayout>
 

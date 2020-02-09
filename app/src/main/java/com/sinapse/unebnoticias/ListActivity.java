@@ -149,7 +149,7 @@ public class ListActivity extends AppCompatActivity implements AbsListView.OnScr
                                     adapter.notifyDataSetChanged();
                                     //originalmente a proxima linha esta comentada
                                     //lv.setAdapter(adapter);
-                                    view.getAnimation().cancel();
+                                    //view.getAnimation().cancel();
                                     Toast.makeText(ListActivity.this, "Noticias Atualizadas!!", Toast.LENGTH_SHORT).show();
                                 }
                             }
